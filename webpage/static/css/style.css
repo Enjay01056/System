@@ -1,0 +1,63 @@
+/* info-section 스타일 */
+.info-section {
+    display: flex;
+    justify-content: center; /* 가운데 정렬 */
+    gap: 60px; /* 카드 간격 */
+    margin-top: 30px;
+}
+
+/* 개별 카드 스타일 */
+.info-card {
+    width: 600px; /* 카드 가로 크기 */
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+    text-align: center;
+    transition: transform 0.3s ease; /* 호버 시 크기 변화 애니메이션 */
+}
+
+.info-card:hover {
+    transform: scale(1.05); /* 호버 시 살짝 확대 */
+}
+
+/* 제목 스타일 */
+.info-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* 본문 스타일 */
+.info-card p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+/* 버튼 스타일 */
+.info-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.info-card .btn:hover {
+    background-color: #555; /* 버튼 호버 시 색 변경 */
+}
+
+.character-image {
+    width: 400px;
+    height: auto;
+    transition: transform 0.2s; /* 애니메이션 효과 */
+    cursor: pointer; /* 클릭 가능 커서 */
+}
+
+.character-image:hover {
+    transform: scale(1.1); /* 마우스를 올리면 확대 */
+}
